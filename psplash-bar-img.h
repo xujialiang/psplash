@@ -1,4 +1,4 @@
-+/* GdkPixbuf RGB C-Source image dump 1-byte-run-length-encoded */
+/* GdkPixbuf RGB C-Source image dump 1-byte-run-length-encoded */
 
 #define BAR_IMG_ROWSTRIDE (690)
 #define BAR_IMG_WIDTH (230)
