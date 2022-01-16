@@ -1,10 +1,10 @@
 /* GdkPixbuf RGBA C-Source image dump 1-byte-run-length-encoded */
 
-#define POKY_IMG_ROWSTRIDE (5120)
-#define POKY_IMG_WIDTH (1280)
-#define POKY_IMG_HEIGHT (720)
-#define POKY_IMG_BYTES_PER_PIXEL (4) /* 3:RGB, 4:RGBA */
-#define POKY_IMG_RLE_PIXEL_DATA ((uint8*) \
+#define _IMG_ROWSTRIDE (5120)
+#define _IMG_WIDTH (1280)
+#define _IMG_HEIGHT (720)
+#define _IMG_BYTES_PER_PIXEL (4) /* 3:RGB, 4:RGBA */
+#define _IMG_RLE_PIXEL_DATA ((uint8*) \
   "\377\0\0\0\0\377\0\0\0\0\377\0\0\0\0\377\0\0\0\0\355\0\0\0\0""0\377\27" \
   "\321\13\377\22\301\35\377\26\303/\377\23\301B\377\22\277T\377\21\277" \
   "g\377\23\300y\375\22\277\214\375\22\276\236\376\22\277\256\376\22\276" \
